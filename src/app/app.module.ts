@@ -10,10 +10,12 @@ import { MatInputModule } from "@angular/material/input";
 import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatProgressBarModule } from "@angular/material/progress-bar";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PdfMakerComponent } from './pdf-maker/pdf-maker.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PdfMakerComponent
   ],
   imports: [
     BrowserModule,
